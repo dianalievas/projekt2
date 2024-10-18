@@ -10,7 +10,7 @@ class WeatherAPI:
         # API URL to get curretn weather data from the coordinates 
         self.api_url = f"https://api.open-meteo.com/v1/forecast?latitude={self.latitude}&longitude={self.longitude}&current_weather=true&timezone={self.timezone}"
         self.city_name = self.get_city_name()
-
+    # en kommentar till Ulf
     # Function to get the city name using a geocoding service 
     def get_city_name(self):
         # API URL to get the name of the city based on the coordinates 
